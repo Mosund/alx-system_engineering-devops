@@ -1,1 +1,2 @@
-VimCrypt~03!Qý…Ç+jFj9ï^‹è}#›s4’Ýjým^™ìãÌªLMÀIjÉ2Œ7i>»LÐƒ#óß§•ºR:¡¿”î° lu®s‹R«lJÚŒ˜×Ë	pRjå‰3ÏÝleÐæI Mi~¼xX¿«Ñ\‡\‹£í@
+#!/bin/bash 
+find . -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f
